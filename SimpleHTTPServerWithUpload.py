@@ -50,7 +50,7 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
             f.write("<strong>Failed:</strong>")
         f.write(info)
         f.write("<br><a href=\"%s\">back</a>" % self.headers['referer'])
-        f.write("<hr><small>Developed By: souravbadami, know more here:  https://souravbadami.com")
+        f.write("<hr><small>Developed By: Sourav Badami, Know more here:  https://souravbadami.com")
         length = f.tell()
         f.seek(0)
         self.send_response(200)
