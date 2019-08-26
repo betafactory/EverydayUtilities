@@ -23,7 +23,7 @@ A) Repeat yourself with some intelligence, using **everyday utilities**.
 ## Table of contents
 
  - [SimpleHTTPServerWithUpload](https://github.com/souravbadami/utilities/blob/master/core/SimpleHTTPServerWithUpload.py) - GET/POST/UPLOAD Quick Server.
- - [GoogleImagesDownloader](https://github.com/souravbadami/utilities/blob/master/core/GoogleImagesDownloader.py)
+ - [GoogleImagesDownloader](https://github.com/souravbadami/utilities/blob/master/core/GoogleImagesDownloader.py) - Download Images From Google.
      - argv1: output-directory
      - argv2: search query (use quotes for multiple terms)
  
