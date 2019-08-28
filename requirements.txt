@@ -1,2 +1,4 @@
 Flask
+enum34
+flask-blueprint
 icrawler

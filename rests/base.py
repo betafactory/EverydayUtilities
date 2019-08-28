@@ -1,10 +1,12 @@
-from main import app
+from flask import Blueprint, request, current_app as this
 from routes import UTILITY_RUNNER_PATH
 
-@app.route(UTILITY_RUNNER_PATH, methods=['GET'])
+base = Blueprint('base', __name__)
+
+@base.route(UTILITY_RUNNER_PATH, methods=['GET'])
 def utility_runner():
     data = request.form.to_dict(flat=False)
-    print(data)
+    # this.logger.info("logging!")
     return {
         "status": True,
         "message": ""
