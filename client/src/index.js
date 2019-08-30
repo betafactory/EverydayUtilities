@@ -10,7 +10,6 @@ const routing = (
   <Router>
     <div>
       <Route path="/" component={Dashboard} />
-      <Route path="/toolkit/:toolname" component={Dashboard} />
     </div>
   </Router>
 )

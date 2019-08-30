@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom';
 import './drawer.css'
 
 class Drawer extends React.Component {
@@ -8,19 +9,19 @@ class Drawer extends React.Component {
             <div class="sidebar-sticky">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="/">
+                  <a class="nav-link" href="#" onClick= { () => this.props.toolkit("home")}>
                     <span data-feather="home"></span>
                     Home <span class="sr-only">(current)</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#" onClick= { () => this.props.toolkit("about")}>
                     <span data-feather="file"></span>
                     About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#" onClick= { () => this.props.toolkit("contributions")}>
                     <span data-feather="file"></span>
                     Contributions
                   </a>
@@ -35,13 +36,13 @@ class Drawer extends React.Component {
               </h6>
               <ul class="nav flex-column mb-2">
                 <li class="nav-item">
-                  <a class="nav-link" href="/toolkit/quickserver">
+                  <a class="nav-link" href="#" onClick= { () => this.props.toolkit("quickserver")}>
                     <span data-feather="file-text"></span>
                     Quick Server
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#" onClick= { () => this.props.toolkit("imagedownloader")}>
                     <span data-feather="file-text"></span>
                     Image Downloader
                   </a>
@@ -52,4 +53,4 @@ class Drawer extends React.Component {
     )
   }
 }
-export default Drawer
+export default withRouter(Drawer)
