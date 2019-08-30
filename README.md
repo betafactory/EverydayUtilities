@@ -14,11 +14,28 @@ A) Repeat yourself with some intelligence, using **everyday utilities**.
 ## Requirements
 
  - Python 2.7
+ - Pip
+ - NPM (Basic Users)
  - Some TPL's (Listed [here](https://github.com/souravbadami/utilities/blob/master/requirements.txt))
 
 ## How to use
 
- - `python -m core.<utility-name> <arguements>`
+Install project dependencies based on usage:
+ - For advanced users:
+   - Install dependencies using `pip install -r requirements.txt` from project root directory.
+ - For basic users:
+   - Install client dependencies using `pip install -r requirements.txt; cd client; npm install` from project root directory.
+
+### Advanced (CLI)
+
+ - Run `python -m core.<utility-name> <arguements>` from project root directory.
+
+### Basic (EverydayUtilities Dashboard)
+
+ - Start the server using `python main.py`
+ - Switch to client directory using `cd client`
+ - Start dashboard using `npm start`
+ - Navigate your web browser to http://localhost:3000
 
 ## Table of contents
 
