@@ -22,9 +22,9 @@ A) Repeat yourself with some intelligence, using **everyday utilities**.
 
 Install project dependencies based on usage:
  - For advanced users:
-   - Install dependencies using `pip install -r requirements.txt` from project root directory.
+   - Install core dependencies using `pip install -r requirements.txt` from project root directory.
  - For basic users:
-   - Install client dependencies using `pip install -r requirements.txt; cd client; npm install` from project root directory.
+   - Install core and client dependencies using `pip install -r requirements.txt; cd client; npm install` from project root directory.
 
 ### Advanced (CLI)
 
