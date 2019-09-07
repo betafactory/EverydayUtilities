@@ -2,7 +2,7 @@
 
 Your Everyday Utilities!
 
-![Everyday Utilities](https://user-images.githubusercontent.com/11073943/64044504-98baa080-cb84-11e9-8bd9-b8e90bc0ae7c.png)
+![Everyday Utilities](https://user-images.githubusercontent.com/11073943/64046419-76775180-cb89-11e9-8630-89bfcfff0319.png)
 
 ## Introduction
 

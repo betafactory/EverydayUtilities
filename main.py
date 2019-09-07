@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask import Flask
 from config import SERVER_HOST, SERVER_PORT, DEBUG, APP_SECRET
 from rests.base import base

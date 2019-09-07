@@ -21,7 +21,7 @@ class Home extends React.Component {
                 </p>
             </div>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                <h1 class="h2">What New ?</h1>
+                <h1 class="h2">What's New ?</h1>
                 <div class="btn-toolbar mb-2 mb-md-0">
 
                 </div>

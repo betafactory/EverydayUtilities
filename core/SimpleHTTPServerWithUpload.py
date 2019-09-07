@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 __version__ = "0.1"
 __all__ = ["SimpleHTTPRequestHandler"]
 __author__ = "souravbadami"
@@ -12,6 +13,7 @@ import cgi
 import shutil
 import mimetypes
 import re
+import argparse
 
 try:
     from cStringIO import StringIO
