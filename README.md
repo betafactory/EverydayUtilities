@@ -37,7 +37,7 @@ Install project dependencies based on usage:
  - Start the server using `python main.py`
  - Switch to client directory using `cd client`
  - Start dashboard using `npm start`
- - Navigate your web browser to http://localhost:3000
+ - Point your web browser to http://localhost:3000
 
 ## Table of contents
 
