@@ -51,3 +51,5 @@ Install project dependencies based on usage:
  - Search & Download Books
      - Name
      - Author
+
+ - Search Network Devices
